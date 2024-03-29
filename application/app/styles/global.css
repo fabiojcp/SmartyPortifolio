@@ -1,0 +1,41 @@
+@font-face {
+  font-family: diatype;
+  src: url("app/assets/fonts/ABC-Diatype.ttf");
+}
+
+:root {
+  --background: #cbbcc9;
+  --text: #333;
+  --title: #333;
+  --paragraph: #555;
+  --white: #f6f6f6;
+  --green: #b2ef95;
+  --yellow: #ebdb49;
+
+  /* Cores complementares */
+  --complementary: #c9c8bb;
+  --complementary-dark: #878769;
+  --complementary-light: #eaeaeb;
+
+  /* Cores análogas */
+  --analogous-1: #cac9bb;
+  --analogous-2: #c9cabb;
+  --analogous-3: #c9c9bb;
+
+  /* Cores triádicas */
+  --triadic-1: #bbc9c8;
+  --triadic-2: #bbc9c9;
+
+  /* Cores complementares divididas */
+  --split-complementary-1: #c8c9bb;
+  --split-complementary-2: #c9c9bb;
+}
+
+* {
+  font-family: "diatype";
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
