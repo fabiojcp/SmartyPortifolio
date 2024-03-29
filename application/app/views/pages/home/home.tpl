@@ -1,0 +1,1 @@
+{include file="app/views/pages/home/components/animatedLogo/index.tpl"}

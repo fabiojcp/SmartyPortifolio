@@ -1,6 +1,11 @@
 @font-face {
-  font-family: diatype;
-  src: url("app/assets/fonts/ABC-Diatype.ttf");
+  font-family: "diatype";
+  src: url("../assets/fonts/diatype/diatype.eot");
+  src: url("../assets/fonts/diatype/diatype.eot") format("eot"),
+    url("../assets/fonts/diatype/diatype.ttf") format("ttf"),
+    url("../assets/fonts/diatype/diatype.woff") format("woff"),
+    url("../assets/fonts/diatype/diatype.woff2") format("woff2"),
+    url("../assets/fonts/diatype/diatype.svg") format("svg");
 }
 
 :root {
@@ -29,6 +34,9 @@
   /* Cores complementares divididas */
   --split-complementary-1: #c8c9bb;
   --split-complementary-2: #c9c9bb;
+
+  --title-img-animated: 30vh;
+  --max-title-img-animated: 15rem;
 }
 
 * {

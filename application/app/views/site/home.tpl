@@ -5,5 +5,5 @@
 {/block}
 
 {block name=body}
-        <div></div>
+      {include file="app/views/pages/home/home.tpl"}  
 {/block}
