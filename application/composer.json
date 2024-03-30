@@ -1,5 +1,18 @@
 {
     "require": {
         "smarty/smarty": "^4.2"
+    },
+    "name": "smarty-tekoa-portfolio/2024",
+    "description": "Estudo de portfolio com Smarty PHP",
+    "authors": [
+      {
+        "name": "Fábio Casanova",
+        "email": "fabio50019@gmail.com",
+        "homepage": "https://fabiocasanova.dev.br",
+        "role": "Developer"
+      }
+    ],
+    "support": {
+      "email": "fabio50019@gmail.com"
     }
 }

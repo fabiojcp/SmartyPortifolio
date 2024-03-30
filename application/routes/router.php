@@ -19,10 +19,5 @@ function router (array $routes, $template) {
     $path = $_SERVER['REQUEST_URI'];
     $findRoute = array_obj_search($routes, 'route', $path);
 
-    if (!$findRoute) {
-        header('Location: /home');
-        return;
-    }
-
     $template->display($findRoute->element);
 }
