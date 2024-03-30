@@ -1,3 +1,4 @@
 vendor
 application/app/views/site/templates_c/*.php
 .env
+error_log.txt
