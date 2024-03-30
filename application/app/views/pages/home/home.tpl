@@ -6,6 +6,11 @@
 <style>
     body {
         overflow: hidden;
+        min-height: 100vh;
+        min-height: 100svh;
+
+        z-index: 999;
+        position: relative;
         * {
             z-index: 1;
             /* border: 1px solid red; */
