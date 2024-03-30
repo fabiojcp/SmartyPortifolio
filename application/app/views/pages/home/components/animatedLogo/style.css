@@ -6,6 +6,11 @@
   margin: 0 4rem;
   position: relative;
   overflow: hidden;
+  z-index: 1;
+
+  * {
+    z-index: 1;
+  }
 }
 
 #logo_animation_line {
@@ -23,7 +28,7 @@
   height: var(--title-img-animated);
 }
 
-@media (max-width: 1020px) {
+@media (max-width: 1250px) {
   #logo_animation_wrapper > img,
   #logo_animation_line > img {
     height: auto;
@@ -54,4 +59,9 @@
       rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
     transform-style: preserve-3d;
   }
+}
+
+.logo_animation_image {
+  overflow: visible;
+  overflow-clip-margin: content-box;
 }

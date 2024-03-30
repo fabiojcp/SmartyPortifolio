@@ -1,0 +1,96 @@
+#home_description_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 2;
+  position: relative;
+}
+
+#home_description_article {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  row-gap: 0.8rem;
+  width: clamp(250px, 600px, 70rem);
+  position: absolute;
+}
+
+#home_description_title {
+  width: fit-content;
+}
+
+#home_description_title {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.home_description_text {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 0.08em;
+  word-break: keep-all;
+  width: fit-content;
+  white-space: nowrap;
+
+  > b {
+    background-color: var(--green);
+  }
+
+  > em {
+    background-color: var(--yellow);
+  }
+}
+
+.home_description_text_emphasis {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.6rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.txtBgGreen {
+  background-color: var(--green);
+}
+
+.txtBgYellow {
+  background-color: var(--yellow);
+}
+
+.textBgWhite {
+  background-color: var(--white);
+}
+
+#home_description_call {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.home_description_animation_wrapper {
+  margin-right: 0.1rem;
+}
+
+.home_description_animation_wrapper_emphasis {
+  position: relative;
+  z-index: 1000;
+}
+
+#home_description_animation_drop_text_secondary {
+  position: absolute;
+  left: -206%;
+  top: 5px;
+  opacity: 0;
+  transition: all 1800ms ease;
+  z-index: 999;
+}

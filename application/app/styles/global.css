@@ -35,12 +35,12 @@
   --split-complementary-1: #c8c9bb;
   --split-complementary-2: #c9c9bb;
 
-  --title-img-animated: 30vh;
+  --title-img-animated: 40vh;
   --max-title-img-animated: 15rem;
 }
 
 * {
-  font-family: "diatype";
+  font-family: "diatype", serif;
 }
 
 body {
